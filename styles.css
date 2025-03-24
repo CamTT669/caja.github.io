@@ -240,27 +240,31 @@ body {
     margin: 20px auto;
 }
 
+/* Título de la galería */
 .titulo-galeria h1 {
-    font-size: 24px;
-    color: #d1548f;
-    font-family: "Rubik Spray Paint", cursive;
-    margin-bottom: 20px;
+  font-size: 24px;
+  color: #d1548f;
+  font-family: "Rubik Spray Paint", cursive;
+  margin-bottom: 20px;
 }
 
+/* Contenedor de fotos y videos */
 .fotos {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 60px;
-    margin-bottom: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px; /* Se unifica el gap */
+  margin-bottom: 20px;
 }
 
-.fotos img {
-    width: 170px;
-    height: 150px;
-    border-radius: 10px;
-    object-fit: cover;
+/* Tamaño uniforme para imágenes y videos */
+.fotos img, .fotos iframe {
+  width: 170px; /* Se mantiene un tamaño uniforme */
+  height: 150px;
+  border-radius: 10px;
+  object-fit: cover;
 }
+
 
 .boton-transparente {
     background-color: transparent;
