@@ -96,7 +96,7 @@ body {
   font-size: 18px;
   border: none;
   border-radius: 5px;
-  background-color: #d1548f;
+  background-color: #9951e7;
   color: white;
   cursor: url(assets/icon/love-pointer.cur), auto;
   transition: background-color 0.3s;
@@ -104,7 +104,7 @@ body {
 }
 
 .botones button:hover {
-  background-color: #e56ab5;
+  background-color: #1bd7ca;
 }
 
 /* Sección del contador (oculta inicialmente) */
