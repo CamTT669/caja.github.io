@@ -247,6 +247,15 @@ body {
   font-family: "Rubik Spray Paint", cursive;
   margin-bottom: 20px;
 }
+/* Fondo de la galería */
+.seccion-galeria {
+  background-image: url('https://i.pinimg.com/736x/4f/f0/b1/4ff0b16e288bcf6763b16bf1b68d791c.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 20px;
+  border-radius: 10px;
+}
 
 /* Contenedor de fotos y videos */
 .fotos {
