@@ -262,17 +262,25 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 15px; /* Se unifica el gap */
+  gap: 20px; /* Aumentamos el espacio entre elementos */
   margin-bottom: 20px;
 }
 
-/* Tamaño uniforme para imágenes y videos */
-.fotos img, .fotos iframe {
-  width: 170px; /* Se mantiene un tamaño uniforme */
-  height: 150px;
+/* Tamaño uniforme para imágenes */
+.fotos img {
+  width: 220px;  /* Aumentamos el ancho */
+  height: 180px; /* Aumentamos la altura */
   border-radius: 10px;
-  object-fit: contain;
+  object-fit: cover; /* Hace que la imagen cubra el espacio sin dejar bordes vacíos */
 }
+
+/* Ajuste especial para el video */
+.fotos iframe {
+  width: 300px;  /* Aumentamos el ancho del video */
+  height: 200px; /* Ajustamos la altura */
+  border-radius: 10px;
+}
+
 
 
 .boton-transparente {
