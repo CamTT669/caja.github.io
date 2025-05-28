@@ -1,4 +1,4 @@
-/*Hecho por: LuisKinnDC*/
+/*Hecho por: YUHER TOVAR */
 
 @import url("https://fonts.googleapis.com/css2?family=Delius&family=Delius+Unicase:wght@400;700&family=Knewave&display=swap");
 
@@ -53,7 +53,7 @@ body {
 .display {
   width: 80%;
   height: 50px;
-  background-color: #eee;
+  background-color: #10e69e;
   border: 1px solid #ccc;
   border-radius: 10px;
   display: flex;
@@ -206,7 +206,7 @@ body {
   background-color: #d1548f;
   border: none;
   border-radius: 40px;
-  color: white;
+  color: rgb(255, 255, 255);
   font-size: 18px;
   cursor: url(assets/icon/love-pointer.cur), auto;
   gap: 8px; /* Espacio entre el ícono y el texto */
@@ -305,7 +305,7 @@ body {
     display: none;
     text-align: center;
     padding: 20px;
-    background-color: #fff;
+    background-color: #3bfdfd;
     border-radius: 10px;
     box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3);
     max-width: 600px;
@@ -343,7 +343,7 @@ body {
   /* Caja fuerte */
   .caja-fuerte {
     display: flex;
-    background-color: #fff;
+    background-color: #09ebdc;
     border: 5px solid #e56ab5;
     border-radius: 5px;
     padding: 20px;
@@ -366,7 +366,7 @@ body {
   .display {
     width: 80%;
     height: 40px;
-    background-color: #eee;
+    background-color: #1497e3;
     border: 1px solid #ccc;
     border-radius: 10px;
     display: flex;
@@ -438,7 +438,7 @@ body {
   #linea-superior {
     font-size: 26px;
     font-weight: bold;
-    color: #d1548f;
+    color: #449fe4;
     margin-bottom: 20px;
     font-family: "Knewave", cursive;
   }
@@ -461,7 +461,7 @@ body {
   .unidad-tiempo span {
     font-size: 64px;
     font-weight: bold;
-    color: #d1548f;
+    color: #34c1e4;
     display: block;
     font-family: "Knewave", cursive;
   }
@@ -470,7 +470,7 @@ body {
     font-size: 16px;
     margin: 4px 0 0;
     font-family: "Knewave", cursive;
-    color: #df4c71;
+    color: #4cdfac;
   }
 
 }
